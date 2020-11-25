@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "app.jwtSecret",
+      "type": "java.lang.String",
+      "description": "Description for app.jwtSecret."
+    },
+    {
+      "name": "spring.jpa.hibernate",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.hibernate."
+    }
+  ] }
