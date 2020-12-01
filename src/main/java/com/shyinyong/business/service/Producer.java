@@ -11,7 +11,7 @@ public class Producer {
     private KafkaTemplate<String, String> kafkaTemplate;
 
     public void send(String message) {
-        String kafkaTopic = "kafka_pipe_release_game_event";
+        String kafkaTopic = "woohoo-event";
 
         kafkaTemplate.send(kafkaTopic, message);
     }
