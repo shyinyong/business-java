@@ -10,9 +10,8 @@ public class Producer {
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
 
-    public void send(String message) {
-        String kafkaTopic = "woohoo-event";
-
+    public void send(String message, String kafkaTopic) {
+        //String kafkaTopic = "game-event-spin";
         kafkaTemplate.send(kafkaTopic, message);
     }
 }
