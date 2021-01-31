@@ -69,7 +69,6 @@ public class UserController {
         payload.put("level", UserController.level);
         payload.put("ip", "140.206.189.2");
 
-        //gameEventData.put("payload", payload);
         String jsonMessage = new Gson().toJson(payload);
         sender.send(jsonMessage, "game-event-player");
 

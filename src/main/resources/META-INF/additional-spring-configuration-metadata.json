@@ -9,5 +9,15 @@
       "name": "spring.jpa.hibernate",
       "type": "java.lang.String",
       "description": "Description for spring.jpa.hibernate."
+    },
+    {
+      "name": "spring.kafka.boot.server",
+      "type": "java.lang.String",
+      "description": "Description for spring.kafka.boot.server."
+    },
+    {
+      "name": "spring.kafka.boot.server",
+      "type": "java.lang.String",
+      "description": "Description for spring.kafka.boot.server."
     }
   ] }
